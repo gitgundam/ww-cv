@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.border {
+  border-style: solid;
+}
+
+p {
+  color: #666;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+ul li::marker {
+  color: #e1315a;
+}
+strong {
+  color: #f60;
+}
